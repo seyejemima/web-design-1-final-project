@@ -1,0 +1,56 @@
+html {
+    font-family: Open sans;
+    font-size: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    color: #0E1215; 
+    
+}
+header nav ul{
+    display: inline-block;
+    list-style-type:none;
+    padding-right: 0;
+}
+
+header ul li {
+    display: inline;
+}
+
+nav a {
+    display: inline-block;
+    padding: .5em .75em;
+    border-radius: 8px
+}
+
+nav a:link, nav a:visited {
+    background-color: #0E1215;
+    color: white;
+    border: 2px solid #0E1215;
+    text-decoration:none; 
+}
+
+nav a:hover, nav a:focus {
+    background-color:  white;
+    color:  #0E1215;
+    border: 2px solid #0E1215;
+    text-decoration:none; 
+}
+header .wrapper {
+    text-align:justify
+}
+.about-me {
+    text-align: right;
+}
+header{
+    background-color: #0E1215;
+    color: white;
+}
+body{
+    margin: 0;
+}
+.artist{
+    width:fit-content
+}
+img{
+width: 100%;
+}
